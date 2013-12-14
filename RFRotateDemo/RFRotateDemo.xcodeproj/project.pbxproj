@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15DC547185BD7F3006D2DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC546185BD7F3006D2DDF /* Foundation.framework */; };
+		F15DC549185BD7F3006D2DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC548185BD7F3006D2DDF /* CoreGraphics.framework */; };
+		F15DC54B185BD7F3006D2DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC54A185BD7F3006D2DDF /* UIKit.framework */; };
+		F15DC551185BD7F3006D2DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F15DC54F185BD7F3006D2DDF /* InfoPlist.strings */; };
+		F15DC553185BD7F3006D2DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC552185BD7F3006D2DDF /* main.m */; };
+		F15DC557185BD7F3006D2DDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC556185BD7F3006D2DDF /* AppDelegate.m */; };
+		F15DC55A185BD7F3006D2DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15DC558185BD7F3006D2DDF /* Main.storyboard */; };
+		F15DC55D185BD7F3006D2DDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC55C185BD7F3006D2DDF /* ViewController.m */; };
+		F15DC55F185BD7F3006D2DDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15DC55E185BD7F3006D2DDF /* Images.xcassets */; };
+		F15DC566185BD7F4006D2DDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC565185BD7F4006D2DDF /* XCTest.framework */; };
+		F15DC567185BD7F4006D2DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC546185BD7F3006D2DDF /* Foundation.framework */; };
+		F15DC568185BD7F4006D2DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC54A185BD7F3006D2DDF /* UIKit.framework */; };
+		F15DC570185BD7F4006D2DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F15DC56E185BD7F4006D2DDF /* InfoPlist.strings */; };
+		F15DC572185BD7F4006D2DDF /* RFRotateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC571185BD7F4006D2DDF /* RFRotateDemoTests.m */; };
+		F15DC580185BDEF0006D2DDF /* RFRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC57F185BDEF0006D2DDF /* RFRotate.m */; };
+		F15DC582185BEA3E006D2DDF /* up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */; };
+		F15DC588185C16F9006D2DDF /* UIColor+FlatUIColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15DC569185BD7F4006D2DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15DC53B185BD7F3006D2DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15DC542185BD7F3006D2DDF;
+			remoteInfo = RFRotateDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15DC543185BD7F3006D2DDF /* RFRotateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFRotateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15DC546185BD7F3006D2DDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F15DC548185BD7F3006D2DDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F15DC54A185BD7F3006D2DDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F15DC54E185BD7F3006D2DDF /* RFRotateDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFRotateDemo-Info.plist"; sourceTree = "<group>"; };
+		F15DC550185BD7F3006D2DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F15DC552185BD7F3006D2DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F15DC554185BD7F3006D2DDF /* RFRotateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFRotateDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F15DC555185BD7F3006D2DDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F15DC556185BD7F3006D2DDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F15DC559185BD7F3006D2DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15DC55B185BD7F3006D2DDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F15DC55C185BD7F3006D2DDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F15DC55E185BD7F3006D2DDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F15DC564185BD7F4006D2DDF /* RFRotateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFRotateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15DC565185BD7F4006D2DDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F15DC56D185BD7F4006D2DDF /* RFRotateDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFRotateDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F15DC56F185BD7F4006D2DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F15DC571185BD7F4006D2DDF /* RFRotateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFRotateDemoTests.m; sourceTree = "<group>"; };
+		F15DC57E185BDEF0006D2DDF /* RFRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFRotate.h; path = ../../RFRotate/RFRotate.h; sourceTree = "<group>"; };
+		F15DC57F185BDEF0006D2DDF /* RFRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFRotate.m; path = ../../RFRotate/RFRotate.m; sourceTree = "<group>"; };
+		F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_arrow@2x.png"; sourceTree = "<group>"; };
+		F15DC586185C16F9006D2DDF /* UIColor+FlatUIColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUIColors.h"; path = "../../../Desktop/UIColor+FlatUIColors.h"; sourceTree = "<group>"; };
+		F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUIColors.m"; path = "../../../Desktop/UIColor+FlatUIColors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15DC540185BD7F3006D2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC549185BD7F3006D2DDF /* CoreGraphics.framework in Frameworks */,
+				F15DC54B185BD7F3006D2DDF /* UIKit.framework in Frameworks */,
+				F15DC547185BD7F3006D2DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15DC561185BD7F4006D2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC566185BD7F4006D2DDF /* XCTest.framework in Frameworks */,
+				F15DC568185BD7F4006D2DDF /* UIKit.framework in Frameworks */,
+				F15DC567185BD7F4006D2DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15DC53A185BD7F3006D2DDF = {
+			isa = PBXGroup;
+			children = (
+				F15DC54C185BD7F3006D2DDF /* RFRotateDemo */,
+				F15DC56B185BD7F4006D2DDF /* RFRotateDemoTests */,
+				F15DC545185BD7F3006D2DDF /* Frameworks */,
+				F15DC544185BD7F3006D2DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15DC544185BD7F3006D2DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC543185BD7F3006D2DDF /* RFRotateDemo.app */,
+				F15DC564185BD7F4006D2DDF /* RFRotateDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15DC545185BD7F3006D2DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC546185BD7F3006D2DDF /* Foundation.framework */,
+				F15DC548185BD7F3006D2DDF /* CoreGraphics.framework */,
+				F15DC54A185BD7F3006D2DDF /* UIKit.framework */,
+				F15DC565185BD7F4006D2DDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F15DC54C185BD7F3006D2DDF /* RFRotateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC555185BD7F3006D2DDF /* AppDelegate.h */,
+				F15DC556185BD7F3006D2DDF /* AppDelegate.m */,
+				F15DC558185BD7F3006D2DDF /* Main.storyboard */,
+				F15DC55B185BD7F3006D2DDF /* ViewController.h */,
+				F15DC55C185BD7F3006D2DDF /* ViewController.m */,
+				F15DC586185C16F9006D2DDF /* UIColor+FlatUIColors.h */,
+				F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */,
+				F15DC57E185BDEF0006D2DDF /* RFRotate.h */,
+				F15DC57F185BDEF0006D2DDF /* RFRotate.m */,
+				F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */,
+				F15DC55E185BD7F3006D2DDF /* Images.xcassets */,
+				F15DC54D185BD7F3006D2DDF /* Supporting Files */,
+			);
+			path = RFRotateDemo;
+			sourceTree = "<group>";
+		};
+		F15DC54D185BD7F3006D2DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC54E185BD7F3006D2DDF /* RFRotateDemo-Info.plist */,
+				F15DC54F185BD7F3006D2DDF /* InfoPlist.strings */,
+				F15DC552185BD7F3006D2DDF /* main.m */,
+				F15DC554185BD7F3006D2DDF /* RFRotateDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F15DC56B185BD7F4006D2DDF /* RFRotateDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC571185BD7F4006D2DDF /* RFRotateDemoTests.m */,
+				F15DC56C185BD7F4006D2DDF /* Supporting Files */,
+			);
+			path = RFRotateDemoTests;
+			sourceTree = "<group>";
+		};
+		F15DC56C185BD7F4006D2DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15DC56D185BD7F4006D2DDF /* RFRotateDemoTests-Info.plist */,
+				F15DC56E185BD7F4006D2DDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15DC542185BD7F3006D2DDF /* RFRotateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15DC575185BD7F4006D2DDF /* Build configuration list for PBXNativeTarget "RFRotateDemo" */;
+			buildPhases = (
+				F15DC53F185BD7F3006D2DDF /* Sources */,
+				F15DC540185BD7F3006D2DDF /* Frameworks */,
+				F15DC541185BD7F3006D2DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFRotateDemo;
+			productName = RFRotateDemo;
+			productReference = F15DC543185BD7F3006D2DDF /* RFRotateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15DC563185BD7F4006D2DDF /* RFRotateDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15DC578185BD7F4006D2DDF /* Build configuration list for PBXNativeTarget "RFRotateDemoTests" */;
+			buildPhases = (
+				F15DC560185BD7F4006D2DDF /* Sources */,
+				F15DC561185BD7F4006D2DDF /* Frameworks */,
+				F15DC562185BD7F4006D2DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15DC56A185BD7F4006D2DDF /* PBXTargetDependency */,
+			);
+			name = RFRotateDemoTests;
+			productName = RFRotateDemoTests;
+			productReference = F15DC564185BD7F4006D2DDF /* RFRotateDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15DC53B185BD7F3006D2DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rex Finn";
+				TargetAttributes = {
+					F15DC563185BD7F4006D2DDF = {
+						TestTargetID = F15DC542185BD7F3006D2DDF;
+					};
+				};
+			};
+			buildConfigurationList = F15DC53E185BD7F3006D2DDF /* Build configuration list for PBXProject "RFRotateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15DC53A185BD7F3006D2DDF;
+			productRefGroup = F15DC544185BD7F3006D2DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15DC542185BD7F3006D2DDF /* RFRotateDemo */,
+				F15DC563185BD7F4006D2DDF /* RFRotateDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15DC541185BD7F3006D2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC55F185BD7F3006D2DDF /* Images.xcassets in Resources */,
+				F15DC551185BD7F3006D2DDF /* InfoPlist.strings in Resources */,
+				F15DC55A185BD7F3006D2DDF /* Main.storyboard in Resources */,
+				F15DC582185BEA3E006D2DDF /* up_arrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15DC562185BD7F4006D2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC570185BD7F4006D2DDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15DC53F185BD7F3006D2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC580185BDEF0006D2DDF /* RFRotate.m in Sources */,
+				F15DC55D185BD7F3006D2DDF /* ViewController.m in Sources */,
+				F15DC588185C16F9006D2DDF /* UIColor+FlatUIColors.m in Sources */,
+				F15DC557185BD7F3006D2DDF /* AppDelegate.m in Sources */,
+				F15DC553185BD7F3006D2DDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15DC560185BD7F4006D2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15DC572185BD7F4006D2DDF /* RFRotateDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15DC56A185BD7F4006D2DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15DC542185BD7F3006D2DDF /* RFRotateDemo */;
+			targetProxy = F15DC569185BD7F4006D2DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15DC54F185BD7F3006D2DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15DC550185BD7F3006D2DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F15DC558185BD7F3006D2DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15DC559185BD7F3006D2DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15DC56E185BD7F4006D2DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15DC56F185BD7F4006D2DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15DC573185BD7F4006D2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F15DC574185BD7F4006D2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15DC576185BD7F4006D2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFRotateDemo/RFRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "RFRotateDemo/RFRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F15DC577185BD7F4006D2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFRotateDemo/RFRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "RFRotateDemo/RFRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F15DC579185BD7F4006D2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RFRotateDemo.app/RFRotateDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFRotateDemo/RFRotateDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RFRotateDemoTests/RFRotateDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F15DC57A185BD7F4006D2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RFRotateDemo.app/RFRotateDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFRotateDemo/RFRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "RFRotateDemoTests/RFRotateDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15DC53E185BD7F3006D2DDF /* Build configuration list for PBXProject "RFRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15DC573185BD7F4006D2DDF /* Debug */,
+				F15DC574185BD7F4006D2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15DC575185BD7F4006D2DDF /* Build configuration list for PBXNativeTarget "RFRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15DC576185BD7F4006D2DDF /* Debug */,
+				F15DC577185BD7F4006D2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F15DC578185BD7F4006D2DDF /* Build configuration list for PBXNativeTarget "RFRotateDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15DC579185BD7F4006D2DDF /* Debug */,
+				F15DC57A185BD7F4006D2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15DC53B185BD7F3006D2DDF /* Project object */;
+}
