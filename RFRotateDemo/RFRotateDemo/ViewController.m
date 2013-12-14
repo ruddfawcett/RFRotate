@@ -25,19 +25,19 @@
     
     self.title = @"RFRotate";
     
+    // Red square
+    
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(rotateRed)];
     
     _redView = [[UIView alloc] initWithFrame:CGRectMake(20, 84, 130, 130)];
     _redView.backgroundColor = [UIColor alizarinColor];
     _redView.gestureRecognizers = @[tapGesture];
     
-    UIImage *upArrowImage = [UIImage imageNamed:@"up_arrow"];
-    UIImageView *upArrow = [[UIImageView alloc] initWithFrame:CGRectMake((_redView.frame.size.width-upArrowImage.size.width)/2, (_redView.frame.size.height-upArrowImage.size.height)/2, upArrowImage.size.width, upArrowImage.size.height)];
-    upArrow.image = upArrowImage;
-    
-    [_redView addSubview:upArrow];
+    [_redView addSubview:[self arrowImage]];
     
     [self.view addSubview:_redView];
+    
+    // Blue square
     
     UITapGestureRecognizer *tapGesture2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(rotateBlue)];
     
@@ -45,13 +45,11 @@
     _blueView.backgroundColor = [UIColor peterRiverColor];
     _blueView.gestureRecognizers = @[tapGesture2];
     
-    UIImage *upArrowImage2 = [UIImage imageNamed:@"up_arrow"];
-    UIImageView *upArrow2 = [[UIImageView alloc] initWithFrame:CGRectMake((_blueView.frame.size.width-upArrowImage.size.width)/2, (_blueView.frame.size.height-upArrowImage.size.height)/2, upArrowImage.size.width, upArrowImage.size.height)];
-    upArrow2.image = upArrowImage2;
-    
-    [_blueView addSubview:upArrow2];
+    [_blueView addSubview:[self arrowImage]];
     
     [self.view addSubview:_blueView];
+    
+    // Green square
     
     UITapGestureRecognizer *tapGesture3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(rotateGreen)];
     
@@ -59,27 +57,29 @@
     _greenView.backgroundColor = [UIColor emeraldColor];
     _greenView.gestureRecognizers = @[tapGesture3];
     
-    UIImage *upArrowImage3 = [UIImage imageNamed:@"up_arrow"];
-    UIImageView *upArrow3 = [[UIImageView alloc] initWithFrame:CGRectMake((_greenView.frame.size.width-upArrowImage.size.width)/2, (_greenView.frame.size.height-upArrowImage.size.height)/2, upArrowImage.size.width, upArrowImage.size.height)];
-    upArrow3.image = upArrowImage3;
-    
-    [_greenView addSubview:upArrow3];
+    [_greenView addSubview:[self arrowImage]];
     
     [self.view addSubview:_greenView];
+    
+    // Purple square
     
     UITapGestureRecognizer *tapGesture4 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(rotatePurple)];
     
     _purpleView = [[UIView alloc] initWithFrame:CGRectMake(170, 234, 130, 130)];
     _purpleView.backgroundColor = [UIColor amethystColor];
     _purpleView.gestureRecognizers = @[tapGesture4];
-    
-    UIImage *upArrowImage4 = [UIImage imageNamed:@"up_arrow"];
-    UIImageView *upArrow4 = [[UIImageView alloc] initWithFrame:CGRectMake((_purpleView.frame.size.width-upArrowImage.size.width)/2, (_purpleView.frame.size.height-upArrowImage.size.height)/2, upArrowImage.size.width, upArrowImage.size.height)];
-    upArrow4.image = upArrowImage4;
-    
-    [_purpleView addSubview:upArrow4];
+
+    [_purpleView addSubview:[self arrowImage]];
     
     [self.view addSubview:_purpleView];
+}
+
+- (UIImageView*)arrowImage {
+    UIImage *upArrowImage = [UIImage imageNamed:@"up_arrow"];
+    UIImageView *upArrow = [[UIImageView alloc] initWithImage:upArrowImage];
+    upArrow.frame = CGRectMake((130-upArrowImage.size.width)/2, (130-upArrowImage.size.height)/2, upArrowImage.size.width, upArrowImage.size.height);
+    
+    return upArrow;
 }
 
 - (void)rotateRed {
@@ -99,7 +99,13 @@
     [RFRotate rotate180:_purpleView withDuration:3 andBlock:^{
         _purpleView.backgroundColor = [UIColor asbestosColor];
     } andCompletion:^{
-        _purpleView.backgroundColor = [UIColor amethystColor];
+        [UIView animateWithDuration:1 delay:0 options:0 animations: ^{
+            _purpleView.backgroundColor = [UIColor amethystColor];
+        } completion: ^(BOOL completed) {
+            if (!completed) {
+                [self rotatePurple];
+            }
+        }];
     }];
 }
 
