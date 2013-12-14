@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F116D626185CC3EE00786A98 /* UIColor+FlatUIColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F116D625185CC3EE00786A98 /* UIColor+FlatUIColors.m */; };
 		F15DC547185BD7F3006D2DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC546185BD7F3006D2DDF /* Foundation.framework */; };
 		F15DC549185BD7F3006D2DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC548185BD7F3006D2DDF /* CoreGraphics.framework */; };
 		F15DC54B185BD7F3006D2DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15DC54A185BD7F3006D2DDF /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		F15DC572185BD7F4006D2DDF /* RFRotateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC571185BD7F4006D2DDF /* RFRotateDemoTests.m */; };
 		F15DC580185BDEF0006D2DDF /* RFRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC57F185BDEF0006D2DDF /* RFRotate.m */; };
 		F15DC582185BEA3E006D2DDF /* up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */; };
-		F15DC588185C16F9006D2DDF /* UIColor+FlatUIColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F116D624185CC3EE00786A98 /* UIColor+FlatUIColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUIColors.h"; sourceTree = "<group>"; };
+		F116D625185CC3EE00786A98 /* UIColor+FlatUIColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUIColors.m"; sourceTree = "<group>"; };
 		F15DC543185BD7F3006D2DDF /* RFRotateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFRotateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15DC546185BD7F3006D2DDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F15DC548185BD7F3006D2DDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,8 +61,6 @@
 		F15DC57E185BDEF0006D2DDF /* RFRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFRotate.h; path = ../../RFRotate/RFRotate.h; sourceTree = "<group>"; };
 		F15DC57F185BDEF0006D2DDF /* RFRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFRotate.m; path = ../../RFRotate/RFRotate.m; sourceTree = "<group>"; };
 		F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_arrow@2x.png"; sourceTree = "<group>"; };
-		F15DC586185C16F9006D2DDF /* UIColor+FlatUIColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUIColors.h"; path = "../../../Desktop/UIColor+FlatUIColors.h"; sourceTree = "<group>"; };
-		F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUIColors.m"; path = "../../../Desktop/UIColor+FlatUIColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,8 @@
 				F15DC558185BD7F3006D2DDF /* Main.storyboard */,
 				F15DC55B185BD7F3006D2DDF /* ViewController.h */,
 				F15DC55C185BD7F3006D2DDF /* ViewController.m */,
-				F15DC586185C16F9006D2DDF /* UIColor+FlatUIColors.h */,
-				F15DC587185C16F9006D2DDF /* UIColor+FlatUIColors.m */,
+				F116D624185CC3EE00786A98 /* UIColor+FlatUIColors.h */,
+				F116D625185CC3EE00786A98 /* UIColor+FlatUIColors.m */,
 				F15DC57E185BDEF0006D2DDF /* RFRotate.h */,
 				F15DC57F185BDEF0006D2DDF /* RFRotate.m */,
 				F15DC581185BEA3E006D2DDF /* up_arrow@2x.png */,
@@ -265,7 +265,7 @@
 			files = (
 				F15DC580185BDEF0006D2DDF /* RFRotate.m in Sources */,
 				F15DC55D185BD7F3006D2DDF /* ViewController.m in Sources */,
-				F15DC588185C16F9006D2DDF /* UIColor+FlatUIColors.m in Sources */,
+				F116D626185CC3EE00786A98 /* UIColor+FlatUIColors.m in Sources */,
 				F15DC557185BD7F3006D2DDF /* AppDelegate.m in Sources */,
 				F15DC553185BD7F3006D2DDF /* main.m in Sources */,
 			);
@@ -476,6 +476,7 @@
 				F15DC577185BD7F4006D2DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F15DC578185BD7F4006D2DDF /* Build configuration list for PBXNativeTarget "RFRotateDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				F15DC57A185BD7F4006D2DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

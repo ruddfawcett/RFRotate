@@ -62,7 +62,7 @@ Hope you enjoy it!
 
 ##Screenshots
 
-![Screenshot 1](http://i.imgur.com/LLk9rUo.png)
+![Screenshot 1](http://i.imgur.com/f2tVRxx.gif)
 ![Screenshot 2](http://i.imgur.com/Hpgesyf.png)
 
 ##License
