@@ -5,9 +5,9 @@ Drop in rotations for your iOS project.  Support for blocks.
 
 ##Installation
 
-### Installation with CocoaPods (hasn't been added yet)
+### Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like RFTapEditLabel in your projects.
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like RFRotate in your projects.
 
 #### Podfile
 
