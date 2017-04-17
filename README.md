@@ -3,7 +3,7 @@ RFRotate
 
 Drop in rotations for your iOS project.  Support for blocks.
 
-##Installation
+## Installation
 
 ### Installation with CocoaPods
 
@@ -60,12 +60,12 @@ Hope you enjoy it!
 + (void)rotateWithFlex:(UIView*)view withDuration:(NSTimeInterval)duration andDegrees:(NSInteger)degrees andBlock:(void (^)(void))block andCompletion:(void (^)(void))completion;
 ```
 
-##Screenshots
+## Screenshots
 
 ![Screenshot 1](http://i.imgur.com/f2tVRxx.gif)
 ![Screenshot 2](http://i.imgur.com/Hpgesyf.png)
 
-##License
+## License
 
 The MIT License (MIT)
 
